@@ -8,9 +8,13 @@ Features a masonry card layout, rich color-coded organization, checklist managem
 
 ## 📱 Preview
 
-<p align="center">
-  <img src="IMG_2893.PNG" alt="Notes App Preview" width="340" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
-</p>
+<div align="center">
+
+| Notes Overview | Create & Edit Note | Rich Media Cards |
+| :---: | :---: | :---: |
+| <img src="screenshots/preview_1.png" width="260" alt="Notes Overview" /> | <img src="screenshots/preview_2.png" width="260" alt="Create & Edit Note Sheet" /> | <img src="screenshots/preview_3.png" width="260" alt="Rich Media Cards" /> |
+
+</div>
 
 ---
 
@@ -49,7 +53,10 @@ The project follows the **MVVM** pattern with modular component separation:
 
 ```text
 notes_app/
-├── IMG_2893.PNG                       # Application preview screenshot
+├── screenshots/                       # Application preview screenshots
+│   ├── preview_1.png                  # Home screen - Masonry grid
+│   ├── preview_2.png                  # Create/Edit note sheet with checklist & image
+│   └── preview_3.png                  # Rich media notes overview
 ├── README.md                          # Documentation
 └── NotesApp/
     ├── NotesApp.xcodeproj             # Xcode project file
